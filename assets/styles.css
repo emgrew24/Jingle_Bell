@@ -1,0 +1,76 @@
+body{
+    background-color:#800e13
+}
+
+.bellContainer{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+
+    color: beige;
+    font-size: x-large;
+}
+
+.bellSize{
+    height: 450px;
+    width: 450px;
+}
+
+.btnContainer{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+
+    padding-top: 5%;
+}
+
+.websiteBtn{
+    height: 50px;
+    width: 400px;
+    font-size: 25px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #497D04;
+
+    background-color: #497D04;
+    color: beige;
+}
+
+a{
+    color: beige;
+}
+
+
+@media only screen and (max-width:500px){
+   .bellContainer{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        align-items: center;
+
+        color: beige;
+        font-size: large;
+    }
+
+    .bellSize{
+        height: 350px;
+        width: 350px;
+    }
+
+    .btnContainer{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        align-items: center;
+
+        padding-top: 30%;
+    }
+
+    .websiteBtn{
+        height: 50px;
+        width: 350px;
+        font-size: 20px;
+    } 
+}
